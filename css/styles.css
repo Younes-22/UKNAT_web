@@ -922,6 +922,10 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="number"]
     margin-bottom: 3rem;
     color: #222;
   }
+
+  .text-center {
+    text-align: center;
+}
   
   .initiatives-container {
     display: grid;
@@ -1038,4 +1042,23 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="number"]
 .news-content p {
     color: #555;
     font-size: 0.95rem;
+}
+
+/* Add this to your existing CSS */
+.narrow-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.narrow-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.narrow-form input[type="text"],
+.narrow-form input[type="email"],
+.narrow-form input[type="tel"],
+.narrow-form select,
+.narrow-form textarea {
+    width: 100%;
+    max-width: 100%;
 }
