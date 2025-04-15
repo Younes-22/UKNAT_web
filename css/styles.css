@@ -986,3 +986,56 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="number"]
     text-decoration: underline;
   }
   
+
+  .news-announcements {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.news-announcements h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.news-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 350px;
+    text-align: left;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-content h3 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.news-content p {
+    color: #555;
+    font-size: 0.95rem;
+}
