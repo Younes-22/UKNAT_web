@@ -539,7 +539,7 @@ footer {
 }
 
 .form-group {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .amount-options {
@@ -1062,3 +1062,41 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="number"]
     width: 100%;
     max-width: 100%;
 }
+
+.stripe-element {
+    padding: 12px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+    margin: 10px 0;
+}
+
+.stripe-element:focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.donation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+#card-element {
+    padding: 12px;
+  }
+
+#card-errors {
+    color: #fa755a;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
