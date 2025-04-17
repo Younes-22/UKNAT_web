@@ -1,0 +1,90 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Environment variables and configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.js
+config.json
+/config
+
+# Stripe API keys and sensitive data
+stripe-keys.js
+stripe-config.js
+
+# Build outputs
+/build
+/dist
+/out
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# IDE and editor folders
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large media files
+*.mp4
+*.mov
+*.wmv
+*.avi
+*.webm
+*.psd
+*.ai
+*.sketch
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Cache directories
+.cache/
+.temp/
+.tmp/
+
+# Local development server
+.vercel
+.netlify
+
+# Testing
+/coverage
+
+# Certificate files
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.priv
+*.p12
+*.pfx
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Miscellaneous
+.eslintcache
+.stylelintcache
